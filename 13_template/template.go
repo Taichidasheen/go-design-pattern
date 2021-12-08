@@ -2,6 +2,12 @@ package template
 
 import "fmt"
 
+/*
+关于模板模式以下内容讲的并不好，可以参考
+https://www.runoob.com/design-pattern/template-pattern.html
+这篇文章讲的更好
+*/
+
 // ISMS ISMS
 type ISMS interface {
 	send(content string, phone int) error

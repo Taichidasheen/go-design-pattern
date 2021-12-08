@@ -4,7 +4,7 @@ import "sync"
 
 var (
 	lazySingleton *Singleton
-	once          = &sync.Once{}
+	once          = sync.Once{}
 )
 
 // GetLazyInstance 懒汉式
